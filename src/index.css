@@ -1,0 +1,97 @@
+.new2 .rec-dot:focus,
+.new2 .rec-dot:hover {
+  display: block;
+}
+
+.new1.rec-dot_active:focus,
+.new1 .rec-dot_active:hover {
+  background-color: #ff7519 !important;
+  box-shadow: 0 0 1px 3px var(--blue) !important;
+}
+
+.rec-arrow {
+  /* background-color: var(--blue) !important;
+    transition: all 0.3s ease;
+    font-size: 1.1rem !important;
+    color: white !important;
+    width: 1.7rem !important;
+    height: 1.7rem !important;
+    min-width: 1.7rem !important;
+    line-height: 1.7rem !important; */
+  display: none;
+}
+
+.rec-arrow:hover:not(:disabled) {
+  transform: scale(1.2);
+}
+
+.new1 .rec-arrow {
+  display: block;
+  background-color: rgb(11, 113, 246);
+  transition: all 0.3s ease;
+  font-size: 1rem !important;
+  color: white !important;
+  width: 1.7rem !important;
+  height: 1.7rem !important;
+  min-width: 1.7rem !important;
+  line-height: 1.7rem !important;
+}
+
+.new1 .rec-arrow:hover:not(:disabled) {
+  transform: scale(1.2);
+  background-color: #ff7519 !important;
+}
+
+.new2 .rec-arrow {
+  display: block;
+  transition: all 0.3s ease;
+  font-size: 1.1rem !important;
+  color: white !important;
+  width: 1.7rem !important;
+  height: 1.7rem !important;
+  min-width: 1.7rem !important;
+  line-height: 1.7rem !important;
+}
+
+.new2 .rec-arrow:hover:not(:disabled) {
+  transform: scale(1.2);
+}
+
+.formError {
+  width: 100%;
+  color: red;
+  font-size: 12px;
+}
+
+.MuiDataGrid-row:nth-child(odd) {
+  background-color: #d6d6d6 !important;
+}
+
+.css-imwso6-MuiBottomNavigationAction-label {
+  font-size: 1rem !important;
+  color: white;
+}
+
+.handleDrawerOpen {
+  background-color: #ff7519;
+}
+
+.media {
+  height: 200px;
+}
+
+.collection {
+  margin-top: "1000px";
+}
+
+.topseller {
+  margin-top: 52px;
+}
+
+.tree-view {
+  font-size: 12px;
+}
+
+.Primary {
+  font-size: 12px;
+}

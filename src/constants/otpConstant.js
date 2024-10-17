@@ -1,0 +1,7 @@
+export const USER_OTP_REQUEST = 'USER_OTP_REQUEST';
+export const USER_OTP_SUCCESS = 'USER_OTP_SUCCESS';
+export const USER_OTP_FAIL = 'USER_OTP_FAIL';
+
+export const OTP_LIST_REQUEST = 'OTP_LIST_REQUEST';
+export const OTP_LIST_SUCCESS = 'OTP_LIST_SUCCESS';
+export const OTP_LIST_FAIL = 'OTP_LIST_FAIL';
